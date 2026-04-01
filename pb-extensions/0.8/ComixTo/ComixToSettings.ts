@@ -201,7 +201,7 @@ const createDynamicListSection = (
                     label: 'Priority Order (1 = highest)',
                     value: createDUIBinding({
                         get: async () => '',
-                        set: async () => {}
+                        set: async () => { }
                     })
                 }),
                 createDUIMultilineLabel({
@@ -215,7 +215,7 @@ const createDynamicListSection = (
                                 ? safe.map((name: string, i: number) => `${i + 1}. ${name}`).join('\n')
                                 : 'No uploaders added yet';
                         },
-                        set: async () => {}
+                        set: async () => { }
                     })
                 }),
                 // --- Add Uploaders ---

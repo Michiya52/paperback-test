@@ -908,9 +908,9 @@ var _Sources = (() => {
           id,
           label,
           tags: items.map(
-            (x) => App.createTag({ 
-              id: `${id}-${x.id || x.term_id || x.termId}`, 
-              label: x.name || x.label || x.title || "Unknown" 
+            (x) => App.createTag({
+              id: `${id}-${x.id || x.term_id || x.termId}`,
+              label: x.name || x.label || x.title || "Unknown"
             })
           )
         });
@@ -1118,7 +1118,7 @@ var _Sources = (() => {
             label: "Priority Order (1 = highest)",
             value: App.createDUIBinding({
               get: async () => "",
-              set: async () => {}
+              set: async () => { }
             })
           }),
           App.createDUIMultilineLabel({
@@ -1132,7 +1132,7 @@ var _Sources = (() => {
                   ? safe.map((name, i) => `${i + 1}. ${name}`).join("\n")
                   : "No uploaders added yet";
               },
-              set: async () => {}
+              set: async () => { }
             })
           }),
           // --- Add Uploaders ---
