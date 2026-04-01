@@ -1,0 +1,27 @@
+{
+    "buildTime": "2026-03-04T03:31:25.256Z",
+    "sources": [
+        {
+            "id": "ComixTo",
+            "name": "ComixTo",
+            "author": "Michiya52",
+            "desc": "Comix.to Extension with advanced filters. Fork of AthK extensions for Paperback 0.8 (Updated by Michiya52)",
+            "website": "https://michiya52.github.io/pb-extensions/0.8",
+            "contentRating": "EVERYONE",
+            "version": "1.4.2",
+            "icon": "icon.png",
+            "tags": [
+                {
+                    "text": "English",
+                    "type": "info"
+                }
+            ],
+            "websiteBaseURL": "https://comix.to",
+            "intents": 53
+        }
+    ],
+    "builtWith": {
+        "toolchain": "0.8.7",
+        "types": "0.8.7"
+    }
+}
